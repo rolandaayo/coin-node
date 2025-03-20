@@ -7,82 +7,82 @@ export default function ConnectWalletPage() {
   const wallets = [
     {
       name: "Trust",
-      logo: "/placeholder.svg?height=100&width=100",
+      logo: "/images/trust.png",
       description: "Trust Wallet",
     },
     {
       name: "Wallet connect",
-      logo: "/placeholder.svg?height=100&width=100",
+      logo: "/images/wallet-connect.jpg",
       description: "WalletConnect Protocol",
     },
     {
       name: "Atomic",
-      logo: "/placeholder.svg?height=100&width=100",
+      logo: "/images/atomic.png",
       description: "Atomic Wallet",
     },
     {
       name: "Metamask",
-      logo: "/placeholder.svg?height=100&width=100",
+      logo: "/images/metamask.png",
       description: "MetaMask",
     },
     {
-      name: "D'CENT Wallet",
-      logo: "/placeholder.svg?height=100&width=100",
+      name: "Rainbow",
+      logo: "/images/rainbow.png",
       description: "D'CENT Wallet",
     },
     {
-      name: "ZelCore",
-      logo: "/placeholder.svg?height=100&width=100",
+      name: "Argent",
+      logo: "/images/Argent.jpeg",
       description: "ZelCore",
     },
     {
-      name: "Nash",
-      logo: "/placeholder.svg?height=100&width=100",
+      name: "Gnosis Safe Multisig",
+      logo: "/images/Gnosis Safe Multisig.jpeg",
       description: "Nash",
     },
     {
-      name: "Coinomi",
-      logo: "/placeholder.svg?height=100&width=100",
+      name: "Crypto.com | DeFi Wallet",
+      logo: "/images/Crypto.com | DeFi Wallet.png",
       description: "Coinomi",
     },
     {
-      name: "GridPlus",
-      logo: "/placeholder.svg?height=100&width=100",
+      name: "Pillar",
+      logo: "/images/Pillar.png",
       description: "GridPlus",
     },
     {
-      name: "CYBAVO Wallet",
-      logo: "/placeholder.svg?height=100&width=100",
+      name: "imToken",
+      logo: "/images/imtoken.jpeg",
       description: "CYBAVO Wallet",
     },
     {
       name: "Tokenary",
-      logo: "/placeholder.svg?height=100&width=100",
+      logo: "/images/wallets/tokenary.png",
       description: "Tokenary",
     },
     {
       name: "Wazirx",
-      logo: "/placeholder.svg?height=100&width=100",
+      logo: "/images/wallets/wazirx.png",
       description: "Wazirx",
     },
     {
       name: "Torus",
-      logo: "/placeholder.svg?height=100&width=100",
+      logo: "/images/wallets/torus.png",
       description: "Torus",
     },
     {
       name: "Spatium",
-      logo: "/placeholder.svg?height=100&width=100",
+      logo: "/images/wallets/spatium.png",
       description: "Spatium",
     },
     {
       name: "Binance Chain",
-      logo: "/placeholder.svg?height=100&width=100",
+      logo: "/images/wallets/binance.png",
       description: "Binance Chain",
     },
     {
       name: "Equal",
-      logo: "/placeholder.svg?height=100&width=100",
+      logo: "/images/wallets/equal.png",
       description: "Equal",
     },
   ]
@@ -100,7 +100,7 @@ export default function ConnectWalletPage() {
 
             <div className="flex justify-center">
               <Image
-                src="/placeholder.svg?height=60&width=60"
+                src="/images/wallet-connect.jpg"
                 alt="COIN NODE Logo"
                 width={60}
                 height={60}
@@ -201,4 +201,3 @@ export default function ConnectWalletPage() {
     </div>
   )
 }
-
