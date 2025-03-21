@@ -43,17 +43,33 @@ export default function Home() {
         </div>
 
         {/* Quick Start Section */}
-        <div className="w-full max-w-5xl mb-20">
-          <h2 className="text-2xl font-semibold text-[#4a8eff] mb-8">Quick Start</h2>
+        <div className="w-full max-w-7xl mb-20">
+          <h2 className="text font-semibold text-center text-[#4a8eff] mb-8">Quick Start</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 sm:px-10 text-center lg:grid-cols-3 gap-6">
             <QuickStartCard title="Migration" />
             <QuickStartCard title="Validate" />
             <QuickStartCard title="Restore" />
             <QuickStartCard title="Stake" />
             <QuickStartCard title="Swapping" />
             <QuickStartCard title="Buying" />
-            <QuickStartCard title="Restore tokens" />
+            <QuickStartCard title="Staking review" />
+            <QuickStartCard title="Reflection" />
+            <QuickStartCard title="Syncronize" />
+            <QuickStartCard title="Unstake Tokens" />
+            <QuickStartCard title="Claim Airdrop Rewards" />
+            <QuickStartCard title="Airdrop" />
+            <QuickStartCard title="Bridge" />
+            <QuickStartCard title="Claim" />
+            <QuickStartCard title="Rectification" />
+            <QuickStartCard title="Recovery" />
+            <QuickStartCard title="Harvest my stakings" />
+            <QuickStartCard title="Withdrawal" />
+            <QuickStartCard title="Gas" />
+            <QuickStartCard title="LP Lock" />
+            <QuickStartCard title="Restore Tokens" />
+            <QuickStartCard title="NFT Mint" />
+            <QuickStartCard title="Purase Tokens" />
             <QuickStartCard title="NFT Mint" />
             <QuickStartCard title="Purchase Tokens" />
             <QuickStartCard title="NFT Mint" />
@@ -77,7 +93,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col items-center">
-              <h3 className="text-4xl font-bold mb-2">100+</h3>
+              <h3 className="text-4xl font-bold mb-2">100+</h3>9
               <p className="text-gray-400">contributors</p>
             </div>
           </div>

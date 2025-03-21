@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "COIN NODE",
+  title: "AutoValidation Chain - Sync Wallets",
   description: "Open protocol to communicate securely between Wallets and Dapps",
     generator: 'v0.dev'
 }
