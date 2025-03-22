@@ -90,7 +90,7 @@ export default function ConnectWalletPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Navigation - Made sticky */}
-      <nav className="sticky top-0 bg-white/80 backdrop-blur-sm shadow-sm z-50">
+      <nav className="sticky top-0 bg-white/80  z-50">
         <div className="container mx-auto px-4 py-4 sm:py-6 flex justify-between items-center">
           <Link href="#" className="text-blue-600 text-base sm:text-lg font-semibold hover:text-blue-700 transition-colors">
             Wallets

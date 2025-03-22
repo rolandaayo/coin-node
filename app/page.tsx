@@ -18,7 +18,7 @@ export default function Home() {
         {/* Logo and Description */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h1 className="text-5xl font-bold mb-8">COIN NODE</h1>
-          <p className="text-lg mb-2">
+          <p className="text-md mb-2">
             COIN NODE is an open protocol to communicate securely between Wallets and Dapps (Web3 Apps).
           </p>
           <p className="text-lg mb-8">The protocol establishes a remote connection using a Bridge server.</p>
